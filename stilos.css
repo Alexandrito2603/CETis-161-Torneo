@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://static.vecteezy.com/system/resources/previews/012/809/329/non_2x/indoor-basketball-court-concept-background-free-vector.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+#cabeza {
+    background-color: rgba(0, 0, 50, 0.7);
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    font-weight: bold;
+}
+#links {
+    padding: 18px;
+}
+#link {
+    text-decoration: none;
+    color: #4FC3F7;
+    margin: 10px;
+}
+#esquina {
+    color: #4FC3F7;
+    font-size: 3rem;
+    margin: 0;
+    text-align:left;
+}
+#inicio {
+    text-align: center;
+    margin: 100px auto;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: rgba(0,0,0,0.8);
+    max-width: 700px;
+}
+#in {
+    color: #FFD54F;
+}
+#bien {
+    color: rgb(85, 221, 221);
+}
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 50, 0.7);
+    padding: 10px;
+    margin-top: 20px;
+    color: #ccc;
+}
+/* Sección de Participantes */
+#participantes {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+#participantes h2 {
+    color: #FFD54F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#participantes ul {
+    list-style: none;
+    padding: 0;
+}
+#participantes li {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #4FC3F7;
+}
+
+/* Sección de Horario */
+#horario {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+#horario h2 {
+    color: #FFD54F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#horario table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+#horario th, #horario td {
+    border: 1px solid #4FC3F7;
+    padding: 10px;
+    text-align: center;
+}
+#horario th {
+    background-color: rgba(79, 195, 247, 0.3);
+}
+
+/* Sección de Ubicación */
+#ubicacion {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+#ubicacion h2 {
+    color: #FFD54F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#ubicacion iframe {
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+}
